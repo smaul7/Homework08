@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "CeraPro";
+    src: url(fonts/CeraPro-Regular.woff2);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: url(fonts/CeraPro-Bold.woff2);
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "CeraPro", sans-serif;
+    color: #3D3D3D;
+}
+
+.body{
+    margin: 0;
+}
+
+.wraper{
+width: 1200px;
+margin: 0 auto;
+}
+
+.button{
+    background-color: #46A358;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main{
+display: flex;
+justify-content: space-between;
+}
+
+.bigcard{
+    background-image: linear-gradient( white 18%, #FBFBFB 18%);
+    width: 586px;
+    height: 297px;
+    padding-left: 30px;
+    text-align: end;
+}
+
+.imgmain{
+    float: left;
+}
+
+h2.info{
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 89px;
+}
+
+p.info{
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+.h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 138px;
+    text-align: center;
+}
+
+.h3{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallcard{
+    width: 268px;
+    background-color: #FBFBFB;
+    padding-left: 15px;
+}
+
+.date{
+    color: #46A358;
+    font-size: 14px;
+}
+
+h2.info-smallcard{
+    font-size: 20px;
+    font-weight: bold;
+    margin: -10px 0;
+}
+
+p.info-smallcard{
+    font-size: 14px;
+}
+
+.readmore{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.imgfooter{
+    margin-left: -15px;
+}
